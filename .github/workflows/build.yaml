@@ -1,0 +1,28 @@
+name: Build Typst document
+on: [push, workflow_dispatch]
+
+permissions:
+  contents: write
+
+jobs:
+  build_typst_documents:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Typst
+        uses: lvignoli/typst-action@main
+        with:
+          source_file: main.typ
+
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: main.pdf
+
+      - name: Create PDF
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: main.pdf

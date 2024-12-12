@@ -1,0 +1,3 @@
+*.pdf
+.direnv
+.envrc

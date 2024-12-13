@@ -29,6 +29,8 @@
 
 #let negl = $op("negl")$
 
+#let supp = $op("supp")$
+
 #let epigraph(phrase, author) = align(right)[
   #text(font: "DejaVu Sans Mono")[
     #phrase

@@ -13,3 +13,5 @@
 #align(center)[
   *Disclaymer*: доверять этому конспекту или нет выбирайте сами
 ]
+
+#include "./themes/1.typ"

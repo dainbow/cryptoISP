@@ -25,6 +25,8 @@
 
 #let res = $op("res")$
 
+#let poly = $op("poly")$
+
 #let epigraph(phrase, author) = align(right)[
   #text(font: "DejaVu Sans Mono")[
     #phrase

@@ -1,3 +1,3 @@
 { pkgs ? import <nixpkgs> { } }:
 
-pkgs.mkShell { packages = with pkgs; [ typst tinymist ]; }
+pkgs.mkShell { packages = with pkgs; [ typst tinymist typstyle ]; }

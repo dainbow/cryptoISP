@@ -65,7 +65,7 @@
   $forall algo A^cal(O): space mu({A^cal(O)(1^n, k)=(m, s), space Valid(m, s) = 1}) = negl(n)$
 ]
 
-#theorem[*Rompel*
+#theorem("Rompel")[
   Если существует односторонняя функция, то существует EU-CMA стойкая схема электронной подписи.
 ]
 

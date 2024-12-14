@@ -30,8 +30,5 @@
 #include "./themes/11.typ"
 #include "./themes/12.typ"
 #include "./themes/13.typ"
-
-//STUB
-#counter(heading).update(14)
-
+#include "./themes/14.typ"
 #include "./themes/15.typ"

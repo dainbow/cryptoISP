@@ -31,6 +31,10 @@
 
 #let supp = $op("supp")$
 
+#let detAlgo = "п.д.м.Т"
+
+#let algo = "п.в.м.Т"
+
 #let epigraph(phrase, author) = align(right)[
   #text(font: "DejaVu Sans Mono")[
     #phrase

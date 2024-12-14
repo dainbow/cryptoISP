@@ -28,6 +28,7 @@
 #include "./themes/9.typ"
 #include "./themes/10.typ"
 #include "./themes/11.typ"
+#include "./themes/12.typ"
 
 //STUB
 #counter(heading).update(14)

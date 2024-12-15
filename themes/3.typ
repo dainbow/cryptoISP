@@ -67,7 +67,7 @@
         L subset.eq BB^* | exists "п.в.м.Т." M:
         cases(
       w in L &=> mu({M(w) = 1}) >= 2/3,
-      w in.not in L &=> mu({M(w) = 1}) <= 1/3)
+      w in.not L &=> mu({M(w) = 1}) <= 1/3)
       }$
   ]
 ]
@@ -79,7 +79,7 @@
         L subset.eq BB^* | exists "п.в.м.Т." M:
         cases(
       w in L &=> mu({M(w) = 1}) >= 2/3,
-      w in.not in L &=> mu({M(w) = 1}) = 0)
+      w in.not L &=> mu({M(w) = 1}) = 0)
       }$
   ]
 ]
